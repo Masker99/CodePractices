@@ -1,11 +1,27 @@
 package com.rookie.basics.temp;
 
 import java.io.*;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.*;
 
 public class Test {
     /**
+     * 源码窗口
+     */
+    public void testSourceCode(){
+        Integer a ;
+    }
+
+    /**
      *
+     */
+    public void testSocket() throws IOException {
+
+
+    }
+    /**
+     *探究compare方法
      */
     public void testComparator(){
         class myComparator implements Comparator<Integer>{
