@@ -6,11 +6,16 @@ import java.net.Socket;
 import java.util.*;
 
 public class Test {
+    private static int b = 1;
+
     /**
      * 源码窗口
      */
     public void testSourceCode(){
-        Integer a ;
+        b = 3;
+        b=5;
+        System.out.println(b);
+//        new BufferedWriter(new OutputStreamWriter());
     }
 
     /**
@@ -199,6 +204,6 @@ public class Test {
 
     public static void main(String[] args){
 //        new Test().testSum();
-
+        new Test().testSourceCode();
     }
 }
