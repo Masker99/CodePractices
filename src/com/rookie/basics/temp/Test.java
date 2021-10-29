@@ -202,8 +202,18 @@ public class Test {
         }
     }
 
+    public String testString(String s){
+        s.replace('A','a');
+        s.toLowerCase();
+        s+="E";
+
+        return s;
+    }
+
     public static void main(String[] args){
 //        new Test().testSum();
-        new Test().testSourceCode();
+        //new Test().testSourceCode();
+        String a = "ABA";
+        System.out.println(new Test().testString(a));
     }
 }
